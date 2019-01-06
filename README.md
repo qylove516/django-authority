@@ -1,0 +1,3 @@
+# django-authority
+Django权限管理系统插件
+可以移值到任何django的项目上，用来管理用户对任何模型的增删改查
