@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if 'add' in request.actions %}
+    <a href="#"> 增加用户 </a>
+{% endif %}
+<p>{{ user.username }}</p>
+<label for="">{{ request.user.company }}</label>
+</body>
+</html>
